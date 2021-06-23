@@ -28,7 +28,6 @@ const AuthForm = () => {
       url =
         "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCgemlHpANOrRaAQ8ubLQUOgakaGkkL8UU";
     }
-    console.log(url);
     fetch(url, {
       method: "POST",
       body: JSON.stringify({
